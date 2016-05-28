@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Punchout";
+    src: url(../images/punch-out!!_nes.ttf) format("truetype");
+}
+
+body {
+	font-family: "Punchout", Verdana, Tahoma;
+	color: #FFFFFF;
+	background: #000000;
+	margin-bottom: 60px;
+}
+
+h1 {
+	font-size: 64px;
+	margin-top: -20px;
+	color: #FC9838;
+}
+
+p {
+	font-size: 18px;
+}
+
+h4 {
+	color: #3DC0FF;
+}
+
+.heading {
+	margin-top: 20px;
+}
+
+.heading li img {
+	height: 120px;
+	width: 120px;
+}
+
+#hangman {
+	width: 60%;
+}
+
+.copy {
+	color: #FC9838;
+	margin: 0;
+	padding-left: 700px;
+}
+
+.green {
+	color: #4DE249;
+}
+
+.newgame {
+	margin-bottom: 15px;
+}
+
+li {
+	display: -webkit-inline-box;
+}
+
+li img {
+	height: 30px;
+	width: 40px;
+}
+
+#game {
+	margin-bottom: 30px;
+}
+
+#game li {
+	width: 40px;
+	font-size: 46px;
+	margin: 8px;
+	border-bottom: 2px solid white;
+}
+
+#stats p {
+	margin-bottom: 30px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 30px;
+}
+
+.footer a:hover {
+	color: #fc9838;
+	text-decoration: none;
+}
